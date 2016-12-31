@@ -4,7 +4,31 @@ body {
   font-family: sans-serif;
 }
 
-#friends-logo {
-  width: 200px;
-  height: 200px;
+.friends-logo {
+  width: 120px;
+  height: 120px;
+  display: inline;
+}
+
+.title {
+  display: inline;
+  font-family: 'Josefin Slab', serif;
+  font-size: 4em;
+}
+
+.NavBar {
+  background-color: #559900;
+  height: 60px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.Body {
+  border: 1px solid red;
+}
+
+.Footer {
+  border: 1px solid red;
 }

@@ -5,8 +5,8 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <img src={logo} alt="logo" id="friends-logo" />
-        <p>Header</p>
+        <img src={logo} alt="logo" className="friends-logo" />
+        <h1 className="title">Oxnard Friends of the Library</h1>
       </div>
     );
   }
