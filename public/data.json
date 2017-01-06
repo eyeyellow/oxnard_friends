@@ -1,0 +1,24 @@
+{
+  "items": [{
+      "title": "Support Us",
+      "image": "library-friends.jpg",
+      "imageClass": "library-friends",
+      "id": "1"
+    }, {
+      "title": "Volunteer",
+      "image": "inside-bookstore.jpg",
+      "imageClass": "inside-bookstore",
+      "id": "2"
+    }, {
+      "title": "Bookstore",
+      "image": "outside-bookstore.jpg",
+      "imageClass": "outside-bookstore",
+      "id": "3"
+    }, {
+      "title": "Location",
+      "image": "outside-library.jpg",
+      "imageClass": "outside-library",
+      "id": "4"
+    }
+  ]
+}
