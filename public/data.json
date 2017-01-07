@@ -3,22 +3,22 @@
       "title": "Support Us",
       "image": "library-friends.jpg",
       "imageClass": "library-friends",
-      "id": "1"
+      "id": "0"
     }, {
       "title": "Volunteer",
       "image": "inside-bookstore.jpg",
       "imageClass": "inside-bookstore",
-      "id": "2"
+      "id": "1"
     }, {
       "title": "Bookstore",
       "image": "outside-bookstore.jpg",
       "imageClass": "outside-bookstore",
-      "id": "3"
+      "id": "2"
     }, {
       "title": "Location",
       "image": "outside-library.jpg",
       "imageClass": "outside-library",
-      "id": "4"
+      "id": "3"
     }
   ]
 }
