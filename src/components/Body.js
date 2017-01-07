@@ -4,7 +4,7 @@ import SlideShowContainer from './containers/SlideShowContainer';
 class Body extends Component {
   render() {
     return (
-      <div className="Body">
+      <div className="body-container">
       <SlideShowContainer />
       </div>
     );

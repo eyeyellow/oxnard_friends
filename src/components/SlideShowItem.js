@@ -5,10 +5,12 @@ const { string } = React.PropTypes;
 class SlideShowItem extends Component {
   render() {
     return (
-      <div className="SlideShowItem">
-        <li className={this.props.classValue} >
-          <h1>{this.props.title}</h1>
-          <img className={this.props.imageClass} alt="slide-item" src={require(`../../public/images/${this.props.image}`)} />
+      <div>
+        <li className={this.props.visibility} >
+          <div className={this.props.slideClass} >
+            <h1>{this.props.title}</h1>
+            <img className={this.props.imageClass} alt="slide-item" src={require(`../../public/images/${this.props.image}`)} />
+          </div>
         </li>
       </div>
     );
@@ -20,7 +22,8 @@ SlideShowItem.propTypes = {
   image: string,
   id: string,
   imageClass: string,
-  classValue: string
+  visibility: string,
+  slideClass: string
 }
 
 export default SlideShowItem;
