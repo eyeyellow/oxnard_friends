@@ -8,7 +8,7 @@ class SlideShowItem extends Component {
       <div>
         <li className={this.props.visibility} >
           <div className={this.props.slideClass} >
-            <h1>{this.props.title}</h1>
+            <h1 className="slide-header">{this.props.title}</h1>
             <img className={this.props.imageClass} alt="slide-item" src={require(`../../public/images/${this.props.image}`)} />
           </div>
         </li>
