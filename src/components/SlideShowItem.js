@@ -11,7 +11,7 @@ class SlideShowItem extends Component {
             <tbody>
               <tr>
                 <td>
-                  <img className={this.props.imageClass} alt="slide-item" src={require(`../../public/images/${this.props.image}`)} />
+                  <img className={this.props.imageClass} alt="slide-item" src={require(`../../public/images/${this.props.image}.jpg`)} />
                 </td>
                 <td className='textbox-cell'>
                   <div className='textbox-container' >
