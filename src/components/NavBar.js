@@ -8,34 +8,46 @@ class NavBar extends Component {
       <div className="nav-bar">
         <ul className="nav-items">
           <li>
-            <Link to='home'>
-              Home
-            </Link>
+            <div className="link-button" >
+              <Link className="link-text" to='home'>
+                Home
+              </Link>
+            </div>
           </li>
           <li>
-            <Link to='about'>
-              About
-            </Link>
+            <div className="link-button">
+              <Link className="link-text" to='about'>
+                About
+              </Link>
+            </div>
           </li>
           <li>
-            <Link to='supportus'>
-              Support Us
-            </Link>
+            <div className="link-button">
+              <Link className="link-text" to='supportus'>
+                Support Us
+              </Link>
+            </div>
           </li>
           <li>
-            <Link to='volunteer'>
-              Volunteer
-            </Link>
+            <div className="link-button">
+              <Link className="link-text" to='volunteer'>
+                Volunteer
+              </Link>
+            </div>
           </li>
           <li>
-            <Link to='bookstore'>
-              Bookstore
-            </Link>
+            <div className="link-button">
+              <Link className="link-text" to='bookstore'>
+                Bookstore
+              </Link>
+            </div>
           </li>
           <li>
-            <Link to='location'>
-              Location
-            </Link>
+            <div className="link-button">
+              <Link className="link-text" to='location'>
+                Location
+              </Link>
+            </div>
           </li>
         </ul>
       </div>
