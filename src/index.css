@@ -58,7 +58,7 @@ body {
 }
 
 .volunteer-image {
-  width: 800px;
+  width: 700px;
   height: 500px;
   display: inline;
   float: left;
@@ -182,9 +182,11 @@ body {
 .icon-item {
   width: 25%;
   vertical-align: bottom;
+  position: relative;
 }
 
 .icon-button {
+  font-family: 'Raleway', sans-serif;
   background-color: #00aedb;
   border-radius: 5px;
   font-size: 2em;
@@ -193,4 +195,22 @@ body {
   width: 80%;
   margin: 0 auto;
   height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+
+.bookshelf-image {
+  height: 281px;
+  width: 500px;
+  padding-top: 50px;
+}
+
+.svg-icon {
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  margin: 0 auto;
 }

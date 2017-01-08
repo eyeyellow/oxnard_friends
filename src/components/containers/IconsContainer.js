@@ -10,7 +10,7 @@ class IconsContainer extends Component {
           <tbody>
             <tr>
               {items.map(function(item) {
-                return <IconItem key={item.id} text={item.title} />
+                return <IconItem iconPath={item.svgIcon} key={item.id} text={item.title} />
               })}
             </tr>
           </tbody>
