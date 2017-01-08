@@ -25,7 +25,14 @@ const SlideShow = React.createClass({
       <div className="SlideShow">
         <ul id="slides">
           {this.props.items.map((item) => (
-            <SlideShowItem visibility={parseInt(item.id, 10) === this.state.index ? 'slide showing' : 'slide' } title={item.title} image={item.image} slideClass={item.slideClass} imageClass={item.imageClass} key={item.id} />
+            <SlideShowItem
+              visibility={parseInt(item.id, 10) === this.state.index ? 'slide showing' : 'slide' }
+              title={item.title}
+              image={item.image}
+              slideClass={item.slideClass}
+              imageClass={item.imageClass}
+              slideText={item.slideText}
+              key={item.id} />
           ))}
         </ul>
       </div>
