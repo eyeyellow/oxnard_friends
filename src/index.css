@@ -58,7 +58,7 @@ body {
 }
 
 .volunteer-image {
-  width: 700px;
+  width: 800px;
   height: 500px;
   display: inline;
   float: left;
@@ -129,12 +129,12 @@ body {
 
 .slide-header {
   font-family: 'Raleway', sans-serif;
-  font-size: 4em;
+  font-size: 2em;
 }
 
 .body-container {
   background-color: #ffffff;
-  height: 500px;
+  height: 2000px;
   margin-left: 7%;
   margin-right: 7%;
   margin-bottom: 3%;
@@ -168,6 +168,29 @@ body {
     z-index: 2;
 }
 
-.Footer {
-  background-color: #e39e54;
+.icons-container {
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 10%;
+}
+
+.icons-table {
+  width: 100%;
+  height: 200px;
+}
+
+.icon-item {
+  width: 25%;
+  vertical-align: bottom;
+}
+
+.icon-button {
+  background-color: #00aedb;
+  border-radius: 5px;
+  font-size: 2em;
+  line-height: 50px;
+  color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  height: 50px;
 }
