@@ -140,11 +140,19 @@ body {
 }
 
 .body-container {
-  background-color: #ffffff;
-  height: 2000px;
+  height: 1300px;
   margin-left: 7%;
   margin-right: 7%;
   margin-bottom: 3%;
+  background: url('../public/images/inside-bookstore.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slide-show {
+  background-color: #ffffff;
 }
 
 #slides {
@@ -175,10 +183,16 @@ body {
     z-index: 2;
 }
 
+.divider-cell {
+  background-color: white;
+  z-index: 0;
+  height: 200px;
+  width: 101%;
+}
+
 .icons-container {
   width: 100%;
-  background-color: #ffffff;
-  margin-top: 10%;
+  margin-top: 50px%;
 }
 
 .icons-table {
@@ -187,7 +201,7 @@ body {
 }
 
 .icon-item {
-  width: 25%;
+  width: 20%;
   vertical-align: bottom;
   position: relative;
 }

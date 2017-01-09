@@ -22,7 +22,7 @@ const SlideShow = React.createClass({
 
   render() {
     return (
-      <div className="SlideShow">
+      <div className="slide-show">
         <ul id="slides">
           {this.props.items.map((item) => (
             <SlideShowItem

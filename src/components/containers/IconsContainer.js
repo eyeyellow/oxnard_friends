@@ -9,6 +9,12 @@ class IconsContainer extends Component {
         <table className="icons-table">
           <tbody>
             <tr>
+              <td colSpan="4" >
+                <div className="divider-cell">
+                </div>
+              </td>
+            </tr>
+            <tr>
               {items.map(function(item) {
                 return <IconItem iconPath={item.svgIcon} key={item.id} text={item.title} />
               })}
