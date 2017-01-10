@@ -28,7 +28,7 @@ const SlideShow = React.createClass({
             <SlideShowItem
               visibility={parseInt(item.id, 10) === this.state.index ? 'slide showing' : 'slide' }
               title={item.title}
-              image={item.image}
+              image={item.tag}
               slideClass={item.slideClass}
               imageClass={item.imageClass}
               slideText={item.slideText}

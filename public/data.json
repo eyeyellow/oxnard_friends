@@ -1,7 +1,7 @@
 {
   "items": [{
       "title": "Support Us",
-      "image": "supportus.jpg",
+      "tag": "supportus",
       "imageClass": "supportus-image",
       "slideClass": "supportus-slide",
       "slideText": "Come support Oxnard Friends of the Library!",
@@ -9,7 +9,7 @@
       "id": "0"
     }, {
       "title": "Volunteer",
-      "image": "volunteer.jpg",
+      "tag": "volunteer",
       "imageClass": "volunteer-image",
       "slideClass": "volunteer-slide",
       "slideText": "Come volunteer for us.",
@@ -17,7 +17,7 @@
       "id": "1"
     }, {
       "title": "Location",
-      "image": "location.jpg",
+      "tag": "location",
       "imageClass": "location-image",
       "slideClass": "location-slide",
       "slideText": "Find out where we are located",
@@ -25,7 +25,7 @@
       "id": "2"
     }, {
       "title": "Bookstore",
-      "image": "bookstore.jpg",
+      "tag": "bookstore",
       "imageClass": "bookstore-image",
       "slideClass": "bookstore-slide",
       "slideText": "Come check out the bookstore",
