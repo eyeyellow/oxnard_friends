@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 const ReactRouter = require('react-router');
 const Link = ReactRouter.Link;
+import NavButton from './common/NavButton'
+import { items } from '../../public/data';
+const { string } = React.PropTypes;
 
 class NavBar extends Component {
   render() {
@@ -8,47 +11,14 @@ class NavBar extends Component {
       <div className="nav-bar">
         <ul className="nav-items">
           <li>
-            <div className="link-button" >
-              <Link className="link-text" to='home'>
-                Home
-              </Link>
-            </div>
+            <NavButton toPath='home' title="Home" />
           </li>
           <li>
-            <div className="link-button">
-              <Link className="link-text" to='about'>
-                About
-              </Link>
-            </div>
+            <NavButton toPath='about' title="About Us" />
           </li>
-          <li>
-            <div className="link-button">
-              <Link className="link-text" to='supportus'>
-                Support Us
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div className="link-button">
-              <Link className="link-text" to='volunteer'>
-                Volunteer
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div className="link-button">
-              <Link className="link-text" to='bookstore'>
-                Bookstore
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div className="link-button">
-              <Link className="link-text" to='location'>
-                Location
-              </Link>
-            </div>
-          </li>
+          {items.map((item) =>
+            <li><NavButton toPath={item.tag} title={item.title} /></li>
+            )}
         </ul>
       </div>
     );
