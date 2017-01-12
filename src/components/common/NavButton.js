@@ -7,8 +7,8 @@ const NavButton = React.createClass({
 
   render() {
     return (
-      <div className="link-button">
-        <Link className="link-text" to={this.props.toPath}>{this.props.title}
+      <div className="nav-button">
+        <Link className="link-text" to={this.props.toPath}>{this.props.text}
         </Link>
       </div>
     );
@@ -17,7 +17,7 @@ const NavButton = React.createClass({
 
 NavButton.propTypes = {
   toPath: string,
-  title: string
+  text: string
 }
 
 export default NavButton;

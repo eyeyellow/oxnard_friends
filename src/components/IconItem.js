@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 const { string } = React.PropTypes;
+import NavButton from './common/NavButton';
 
 
 class IconItem extends Component {
@@ -8,7 +9,7 @@ class IconItem extends Component {
       <td className="icon-item">
         <img role="presentation" className="svg-icon" src={require(`../../public/images/icons/${this.props.iconPath}`)} />
         <div className="icon-button" >
-          {this.props.text}
+          <NavButton toPath={this.props.toPath} text={this.props.text} />
         </div>
       </td>
     );
@@ -16,7 +17,9 @@ class IconItem extends Component {
 }
 
 IconItem.propTypes = {
-  text: string
+  text: string,
+  toPath: string,
+  iconPath: string
 }
 
 export default IconItem;
