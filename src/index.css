@@ -127,7 +127,7 @@ body {
 .nav-items li {
   font-family: 'Raleway', sans-serif;
   display: inline-block;
-  font-size: 2em;
+  font-size: 30px;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 1%;
@@ -241,6 +241,8 @@ body {
 
 .about {
   position: absolute;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
   background-color: #00aedb;
   border-radius: 15px;
   height: 300px;
